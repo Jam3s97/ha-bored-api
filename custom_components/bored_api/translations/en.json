@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Bored API",
+        "description": "Set up the Bored API activity suggestion service."
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the Bored API"
+    },
+    "abort": {
+      "already_configured": "Bored API is already configured"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "activity": { "name": "Activity" },
+      "type": { "name": "Type" },
+      "participants": { "name": "Participants" },
+      "price": { "name": "Price" },
+      "accessibility": { "name": "Accessibility" },
+      "duration": { "name": "Duration" }
+    },
+    "button": {
+      "new_activity": { "name": "New activity" }
+    }
+  }
+}
